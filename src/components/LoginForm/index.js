@@ -24,7 +24,7 @@ class LoginForm extends Component {
     const {history} = this.props
 
     Cookies.set('jwt_token', jwtToken, {
-      expires: 30,
+      expires: 7,
     })
     history.replace('/')
   }
@@ -63,7 +63,7 @@ class LoginForm extends Component {
           type="password"
           id="password"
           className="password-input-field"
-          value={password}
+          value={password}  
           onChange={this.onChangePassword}
           placeholder="Password"
         />
