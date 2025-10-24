@@ -1,0 +1,37 @@
+.cart-summery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.total-content {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.span {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.itam-in-cart {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.checkout-button {
+  height: 35px;
+  width: 250px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
