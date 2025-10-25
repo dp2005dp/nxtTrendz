@@ -97,7 +97,7 @@ class App extends Component {
         }}
       >
         <Switch>
-          <Route exact path="/login" component={LoginForm} />
+          <Route  path="/login" component={LoginForm} />
           <ProtectedRoute exact path="/" component={Home} />
           <ProtectedRoute exact path="/products" component={Products} />
           <ProtectedRoute
@@ -106,7 +106,7 @@ class App extends Component {
             component={ProductItemDetails}
           />
           <ProtectedRoute exact path="/cart" component={Cart} />
-          <Route path="/not-found" component={NotFound} />
+          <Route exact path="/not-found" component={NotFound} />
           <Redirect to="not-found" />
         </Switch>
       </CartContext.Provider>
